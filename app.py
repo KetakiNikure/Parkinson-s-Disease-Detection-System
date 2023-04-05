@@ -76,9 +76,9 @@ if (selected == "Parkinsons Test"):
         flo = st.text_input('MDVP: Flo(Hz)')
         
         Jitter_percent = st.text_input('MDVP: Jitter(%)')
-#         Jitter_percent = int(Jitter_percent)
-#         Jitter_percent = Jitter_percent/100
-#         Jitter_percent = str(Jitter_percent)
+        Jitter_percent = int(Jitter_percent)
+        Jitter_percent = Jitter_percent/100
+        Jitter_percent = str(Jitter_percent)
         
         Jitter_Abs = st.text_input('MDVP: Jitter(Abs)')
         
