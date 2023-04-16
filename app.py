@@ -25,7 +25,7 @@ with st.sidebar:
 # Parkinson's Prediction 
 if (selected == "Accuracy"):
     st.title("Accuracy ")
-    st.header(89.9%)
+    st.header("89.9%")
     
     
 if (selected == "About"):
